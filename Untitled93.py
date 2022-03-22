@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -28,8 +22,6 @@ for match in matchess:
 k = pd.DataFrame(list,columns=["Match","1","X","2"])
 print(k)
 
-
-# In[ ]:
 
 
 
